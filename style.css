@@ -1,6 +1,7 @@
 *{
     text-decoration: none;
     list-style: none;
+
 }
 
     
@@ -10,14 +11,14 @@
 }
 
 body{
+    background-color: #e3e3e3;
     overflow-x: hidden;
 }
 
 header   {
     display: flex;
-     justify-content: space-between;
-     justify-content: center;
-     position: relative;
+     justify-content: space-around;
+      position: relative;
 }
 
 header ul {
@@ -95,6 +96,9 @@ h1{
     top: 0px;
     left: 20px;
 }
+#sycle-btn i{
+    color: white;
+}
 #button-p{
     margin: -50px 300px;
     
@@ -105,15 +109,22 @@ h1{
        color: #5E6282;
 
 }
+
+.subscribe{
+    height: 700px;
+}
 .subscribe-div {
     
     position: relative;
-    top: 200px;
+    top: 190px;
     padding: 200px;
-    background-color: #e3e4e9;
     border-radius: 300px 0px 0px 0px;
     padding: -200px;
-    
+    width: 900px;
+    margin: 100px ;
+    height: 2px;
+    background-color: #f0eeee;
+
     
 }
 #subscribe-div-p1{
@@ -122,8 +133,8 @@ h1{
        font-family: "lexend", sans-serif;
           color: #5E6282;
           font-size: 30px;
-         
           width: 100%;
+
 }
 #subscribe-div-p2{
     justify-content: center;
@@ -136,33 +147,61 @@ h1{
           margin: 150px 350px;
 
 }
-.input-group INPUT{
+.input-group input{
     border-radius: 9px;
      padding: 20px 10px 20px 35px; 
      width: 500px;
-     margin-left: 260px;
+     margin-left: 170px;
      border: 0px;
-
-     
-
-
+     /* z-index: 2; */
+     background-color: rgb(255, 255, 255);
+    
 
 }
 .input-group i{
     position: absolute;
-    left: 470px;
+    left: 380px;
     color: #5E6282;
-    top:295px;
+    top:297px;
 }
 .input-group button{
     border-radius: 9px;
-     padding: 20px 20px 20px 20px; 
+     padding: 20px;
      background-color: chocolate;
      border: 0px;
      color: white;
      font-size: 15px;
+     
+}
+  #subBackround2{
+    position: absolute;
+    height: 300px;
+    top: 100px;
+
+    left: 0px;
+    z-index: 3;
+     
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    font-family: "lexend", sans-serif;
+}
+
+ 
+footer ul li {
+    color: #5E6282;
 
 }
+#copy-right{
+    text-align: center;
+     color: #5E6282;
+    font-family: "lexend", sans-serif;
+
+}
+
+
+
 
 
 
