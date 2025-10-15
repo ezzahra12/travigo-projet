@@ -1,0 +1,168 @@
+*{
+    text-decoration: none;
+    list-style: none;
+}
+
+    
+#logo{
+    padding: 1%;
+
+}
+
+body{
+    overflow-x: hidden;
+}
+
+header   {
+    display: flex;
+     justify-content: space-between;
+     justify-content: center;
+     position: relative;
+}
+
+header ul {
+display: flex;
+padding-top: 2%;
+gap: 50px;
+}
+header ul li a{
+    color: black;
+}
+#background{
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
+.home-select {
+  background-color: transparent;
+    color: rgb(22, 21, 21);
+    border: 0px;
+}
+#sign-up{
+    border: solid 1px;
+    padding:4px 20px;
+    border-radius: 4px;
+    margin-top: -3px;
+}
+#first-p{
+    margin: 40px 150px;
+    color: chocolate;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    
+    
+}
+
+h1{
+    margin: 40px 150px;
+    font-size:100px;
+    
+}
+#sous-img{
+    position:absolute;
+    top:300px;
+    left: 420px;
+    width: 400px;
+    z-index: -1;
+}
+#second-p{
+   margin: 40px 150px;
+   font-family: "lexend", sans-serif;
+   font-size: 16px;
+   line-height: 26px;
+   color: #5E6282;
+}
+#first-btn{
+    background-color: rgb(180, 120, 30);
+    color:azure;
+    padding: 20px 38px;
+    border-radius: 14px;
+    margin-left: 150px ;
+    border: 0px;
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}
+#sycle-btn{
+    height: 50Px;
+    width: 50Px;
+    border-radius: 30px  30px;
+    background-color: chocolate;
+    border-color: chocolate;
+    margin-left: 20px; 
+    position: relative;
+    top: 0px;
+    left: 20px;
+}
+#button-p{
+    margin: -50px 300px;
+    
+    width: 12em; 
+    position:relative;
+    left: 140px;
+    font-family: "lexend", sans-serif;
+       color: #5E6282;
+
+}
+.subscribe-div {
+    
+    position: relative;
+    top: 200px;
+    padding: 200px;
+    background-color: #e3e4e9;
+    border-radius: 300px 0px 0px 0px;
+    padding: -200px;
+    
+    
+}
+#subscribe-div-p1{
+    justify-content: center;
+    margin:-150px 200px ;
+       font-family: "lexend", sans-serif;
+          color: #5E6282;
+          font-size: 30px;
+         
+          width: 100%;
+}
+#subscribe-div-p2{
+    justify-content: center;
+    margin:-150px 200px ;
+       font-family: "lexend", sans-serif;
+          color: #5E6282;
+          font-size: 30px;
+          
+          width: 100%;
+          margin: 150px 350px;
+
+}
+.input-group INPUT{
+    border-radius: 9px;
+     padding: 20px 10px 20px 35px; 
+     width: 500px;
+     margin-left: 260px;
+     border: 0px;
+
+     
+
+
+
+}
+.input-group i{
+    position: absolute;
+    left: 470px;
+    color: #5E6282;
+    top:295px;
+}
+.input-group button{
+    border-radius: 9px;
+     padding: 20px 20px 20px 20px; 
+     background-color: chocolate;
+     border: 0px;
+     color: white;
+     font-size: 15px;
+
+}
+
+
+
