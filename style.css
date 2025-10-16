@@ -301,9 +301,108 @@ footer ul li {
     top: 1600px;
     z-index: -1;
  }
+ #mission-img{
+    position: absolute;
+    margin-left: 70%;
+ margin-top: 14%;
 
+ }
+
+
+  #mission-img:hover{
+    width:20% ;
+ }
+
+ .Our-Mission{
+    margin-left: 10%;
+    margin-top: 10%;
+    position: absolute;
+    padding: 3%;
+    font-size: 30px;
+
+ }
+
+
+
+  #story-img{
+    margin-left: 15%;
+    margin-top: 34%;
+    position: absolute;
+    width: 25%;
+
+ }
+
+
+  #story-img:hover{
+    width:20% ;
+ }
+ 
+ .Our-Story{
+
+    position: absolute;
+    margin-left: 60%;
+ margin-top: 30%;
+    padding: 3%;
+    font-size: 30px;
+
+ }
+
+ #abt-footer{
+    margin-top:70%;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  #opinion-img{
+    position: absolute;
+        margin-left: 50%;
+
+ margin-top: 60%;
+ box-shadow: 2px 0px 20px rgba(0, 0, 0, .186);
+ padding: 20px;
+
+
+ }
+
+
+  #opinion-img:hover{
+    width:20% ;
+ }
+
+ .pplOpinion{
+    margin-left: 10%;
+    margin-top: 55%;
+    position: absolute;
+    padding: 3%;
+    font-size: 30px;
+
+ }
+ .Our h2{
+    font-family: "lexend", sans-serif;
+    color: bisque;
+ }
  
 
+
+ 
   
 
 
