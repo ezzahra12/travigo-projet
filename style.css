@@ -149,12 +149,13 @@ header ul li a{
 
 }
 .input-group input{
+    position: relative;
     border-radius: 9px;
      padding: 20px 10px 20px 35px; 
      width: 500px;
      margin-left: 170px;
      border: 0px;
-     z-index: 200; 
+     z-index: 1; 
      background-color: rgb(255, 255, 255);
     
 
@@ -179,7 +180,6 @@ header ul li a{
     height: 300px;
     top: 100px;
     left: 0px;
-    z-index: 0;
 }
 footer{
     display: flex;
@@ -273,6 +273,29 @@ footer ul li {
     padding: -3%;
     
  }
+
+ .book-trip{
+    display: flex;
+ }
+
+.romaDetail-container{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.romaDetail-container .romaDetail{
+    position: absolute;
+}
+
+.romaDetail-container .romaDetail:last-child{
+    top: 25%;
+    left: 40%;
+}
+
+
 .book-trip #trip-h2{
     
     font-size: 40px;
